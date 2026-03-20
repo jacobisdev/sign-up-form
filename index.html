@@ -8,65 +8,76 @@
   <script type="module" src="script.js"></script>
 </head>
 <body>
-  <div class="title">
-    <h1>ODIN</h1>
-  </div>
-  <div class="main">
-    <section class="info">
-      <p>This is not a real online service! You know to need something like this in your life to help you realize your deepest dreams. 
-        <br>
-        Sign up <em>now</em> to get started.  
-      </p>
-      
-      <p>You <em>know</em> you want to.</p>
-    </section>
+  <div class="container">
+    <div class="section-title">
+      <div class="title-wrapper">
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="The Odin Project Logo" class="odin-logo">
+        <h1 class="title">ODIN</h1>
+      </div>
+      <small class="credit">Photo by 
+        <a href="">Halie West</a>
+        on
+        <a href="">Unsplash</a>
+      </small>
+    </div>
 
-    <section class="form">
-      <h2>Let's do this!</h2>
-
-      <form action="/" method="post">
-        <div class="fullname">
-          <div>
-            <label for="first-name">FIRST NAME</label>
-            <input id="first-name" type="text">
+    <main>
+      <section class="info">
+        <p>This is not a real online service! You know to need something like this in your life to help you realize your deepest dreams. 
+          <br>
+          Sign up <em>now</em> to get started.  
+        </p>
+        
+        <p>You <em>know</em> you want to.</p>
+      </section>
+  
+      <section class="form">
+        <h2>Let's do this!</h2>
+  
+        <form action="/" method="post">
+          <div class="fullname">
+            <div>
+              <label for="first-name">FIRST NAME</label>
+              <input id="first-name" type="text">
+            </div>
+    
+            <div>
+              <label for="last-name">LAST NAME</label>
+              <input id="last-name" type="text">
+            </div>
           </div>
   
-          <div>
-            <label for="last-name">LAST NAME</label>
-            <input id="last-name" type="text">
-          </div>
-        </div>
-
-        <div class="contact-info">
-          <div>
-            <label for="email">EMAIL</label>
-            <input id="email" type="email">
-          </div>
-  
-          <div>
-            <label for="phone-number">PHONE NUMBER</label>
-            <input id="phone-number" type="tel">
-          </div>
-        </div>
-
-        <div class="password">
-          <div>
-            <label for="password">PASSWORD</label>
-            <input id="password" type="password">
+          <div class="contact-info">
+            <div>
+              <label for="email">EMAIL</label>
+              <input id="email" type="email">
+            </div>
+    
+            <div>
+              <label for="phone-number">PHONE NUMBER</label>
+              <input id="phone-number" type="tel">
+            </div>
           </div>
   
-          <div>
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input id="confirm-password" type="password">
+          <div class="password">
+            <div>
+              <label for="password">PASSWORD</label>
+              <input id="password" type="password">
+            </div>
+    
+            <div>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input id="confirm-password" type="password">
+            </div>
           </div>
-        </div>
-        <button type="submit">Create Account</button>
-      </form>
-      
-      <p>Already have an account? 
-        <a href=""><span>Log in</span></a>
-      </p>
-    </section>
+          <button type="submit">Create Account</button>
+        </form>
+        
+        <p>Already have an account? 
+          <a href=""><span>Log in</span></a>
+        </p>
+      </section>
+    </main>
   </div>
 </body>
 </html>
