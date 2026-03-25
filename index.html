@@ -22,19 +22,18 @@
     </div>
 
     <main>
-      <section class="info">
+      <div class="info">
         <p>This is not a real online service! You know to need something like this in your life to help you realize your deepest dreams. 
           <br>
           Sign up <em>now</em> to get started.  
         </p>
         
         <p>You <em>know</em> you want to.</p>
-      </section>
+      </div>
   
-      <section class="form">
+      <div class="form">
         <h2>Let's do this!</h2>
-  
-        <form action="/" method="post">
+        <form action="/" method="post" id="contact-form">
           <div class="fullname">
             <div>
               <label for="first-name">FIRST NAME</label>
@@ -70,13 +69,15 @@
               <input id="confirm-password" type="password">
             </div>
           </div>
-          <button type="submit">Create Account</button>
         </form>
-        
+      </div>
+
+      <div class="div-button">
+        <button type="submit" form="contact-form">Create Account</button>
         <p>Already have an account? 
           <a href=""><span>Log in</span></a>
         </p>
-      </section>
+      </div>
     </main>
   </div>
 </body>

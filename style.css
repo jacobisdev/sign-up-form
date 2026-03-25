@@ -7,6 +7,7 @@
 
 body {
   margin: 0;
+  background-color: #eeeeee;
 }
 
 .container {
@@ -19,8 +20,8 @@ body {
   background-size: cover;
 
   width: 40vw;
+  min-width: 400px;
   height: 100vh;
-  margin-right: 50px;
 
   color: #ffffff;
   display: flex;
@@ -64,6 +65,51 @@ main {
   justify-content: center;
 }
 
+.info, .div-button {
+  padding-left: 50px;
+}
+
 .info {
   font-weight: bold;
+}
+
+.form {
+  background-color: #ffffff;
+  padding: 0px 36px 36px 50px;
+  box-shadow: 0px 5px 5px #dadada;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: min-content;
+  gap: 20px;
+
+  & > div {
+    display: flex;
+    gap: 60px;
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+input {
+  width: 254px;
+  height: 32px;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  padding: 4px 12px;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: 1px solid #1d4ed8;
+    box-shadow: 2px 2px 5px #999999;
+  }
+}
+
+.password input{
+  border: 1px solid #c13737;
 }
