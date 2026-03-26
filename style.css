@@ -128,7 +128,7 @@ input {
   }
 }
 
-.password input{
+.password input:user-invalid {
   border: 1px solid #c13737;
 }
 
